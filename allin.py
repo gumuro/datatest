@@ -319,15 +319,12 @@ elif identity == '出展社' and content_selection == '自社製品ランキン�
             fig.update_layout(
                 xaxis={'title': '人気値'},
                 yaxis={'title': '製品', 'autorange': "reversed"},
-                title="自社製品スコアランキング",
                 showlegend=False
             )
             return fig
 
         # The main app function where we run our Streamlit app
         def run_app():
-            st.title("自社製品スコアランキング")
-
             df = load_data()
             company_name = "NTT Com DD株式会社"
             prepared_data = prepare_data(df, company_name)
