@@ -1,0 +1,10 @@
+requests
+pandas == 2.0.3
+numpy == 1.25.2
+st-annotated-text==4.0.1
+plotly==5.17.0
+openpyxl == 3.0.10
+streamlit == 1.26.0
+xlsxwriter == 3.1.9
+pillow==9.4.0
+
